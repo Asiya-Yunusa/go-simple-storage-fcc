@@ -1,12 +1,13 @@
 package main
 
 import (
-	"/go-simple-storage-fcc/api"
 	"context"
 	"crypto/ecdsa"
 	"fmt"
 	"math/big"
 	"os"
+
+	"github.com/Asiya-Yunusa/go-simple-storage-fcc/api"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
